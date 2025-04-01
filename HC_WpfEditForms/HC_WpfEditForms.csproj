@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logo.svg" />
+    <None Remove="placeholder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="DevExpress.AIIntegration" Version="25.1.2-pre-25085" />
+    <PackageReference Include="DevExpress.AIIntegration.Wpf" Version="25.1.2-pre-25085" />
+    <PackageReference Include="DevExpress.Wpf" Version="25.1.2-pre-25085" />
+    <PackageReference Include="DevExpress.Wpf.ThemesLW" Version="25.1.2-pre-25085" />
+	<PackageReference Include="DevExpress.Mvvm.CodeGenerators" Version="22.1.1" />
+	<PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.3.0-preview.1.25161.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo.svg" />
+    <Resource Include="placeholder.png" />
+  </ItemGroup>
+
+</Project>
