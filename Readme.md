@@ -1,4 +1,4 @@
-# Desktop Edit Forms - UX Best Practices
+# Edit Forms - UX Best Practices
 
 This example demonstrates five main UX principles of edit forms:
 
