@@ -26,11 +26,11 @@ public partial class App : Application
         ProfileOptimization.StartProfile("Startup.Profile");
 
         ClearAutomationEventsHelper.IsEnabled = false;
-        
-        IChatClient asChatClient = new AzureOpenAIClient(new Uri("[YOUR ENDPOINT]"),
-           new System.ClientModel.ApiKeyCredential("[KEY]"))
-           .AsChatClient("[MDOEL NAME]");
-        AIExtensionsContainerDesktop.Default.RegisterChatClient(asChatClient);
+
+        //IChatClient asChatClient = new AzureOpenAIClient(new Uri("[YOUR AZURE ENDPOINT URL]"),
+        //   new System.ClientModel.ApiKeyCredential("[YOUR KEY]"))
+        //   .AsChatClient("[YOUR MODEL NAME]");
+        //AIExtensionsContainerDesktop.Default.RegisterChatClient(asChatClient);
     }
 
 

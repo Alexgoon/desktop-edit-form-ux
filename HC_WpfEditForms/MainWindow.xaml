@@ -31,6 +31,8 @@
                     Value="SemiBold" />
             <Setter Property="Padding"
                     Value="0,10" />
+            <Setter Property="TitleBackground"
+                    Value="Transparent" />
         </Style>
         <Style TargetType="dxlc:LayoutItem">
             <Setter Property="Padding"
@@ -59,7 +61,7 @@
             <Setter Property="BorderThickness"
                     Value="1" />
             <Setter Property="Background"
-                    Value="White" />
+                    Value="#F9F9F9" />
             <Setter Property="BorderBrush"
                     Value="{dxci:ThemeResource ThemeKey='Brush.PanelBorder'}" />
             <Setter Property="Effect">
@@ -616,7 +618,8 @@
                     <GroupBox Header="Contact Information"
                               Margin="0,30,0,0"
                               Padding="0,10"
-                              BorderThickness="0,1,0,0">
+                              BorderThickness="0,1,0,0"
+                              BorderBrush="#FFCECECE">
                         <GroupBox.HeaderTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding}"
@@ -798,7 +801,8 @@
                         <GroupBox Header="Contact Information"
                                   Margin="0,30,0,0"
                                   Padding="0,10"
-                                  BorderThickness="0,1,0,0">
+                                  BorderThickness="0,2,0,0"
+                                  BorderBrush="#FFCECECE">
                             <GroupBox.HeaderTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="{Binding}"
@@ -918,7 +922,7 @@
                                         Margin="8,12"
                                         AnimateScrolling="False"
                                         DragScrolling="False"
-                                        Background="White"
+                                        Background="Transparent"
                                         ItemSpace="30">
                         <mvvm:Interaction.Behaviors>
                             <dxai:SmartPasteBehavior x:Name="lcSmartPasteBehavior" />
@@ -1024,7 +1028,7 @@
                                         Margin="8,12"
                                         AnimateScrolling="False"
                                         DragScrolling="False"
-                                        Background="White"
+                                        Background="Transparent"
                                         ItemSpace="30">
                         <dxlc:LayoutGroup Orientation="Horizontal">
                             <dxlc:LayoutGroup Orientation="Vertical">
@@ -1133,7 +1137,7 @@
                                         Margin="8,12"
                                         AnimateScrolling="False"
                                         DragScrolling="False"
-                                        Background="White"
+                                        Background="Transparent"
                                         ItemSpace="30">
                         <dxlc:LayoutGroup Orientation="Horizontal">
                             <dxlc:LayoutGroup Orientation="Vertical">
@@ -1182,6 +1186,7 @@
                             </dxlc:LayoutItem>
                         </dxlc:LayoutGroup>
                         <dxlc:LayoutGroup Header="Contact Info"
+                                          Background="Transparent"
                                           View="GroupBox"
                                           Orientation="Vertical"
                                           Padding="0">
