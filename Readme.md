@@ -6,7 +6,11 @@ This example demonstrates five main UX principles of edit forms:
 2. Simplicity  
 3. Logic  
 4. Focus (user attention)  
-5. Assistance  
+5. Assistance
+
+By appling these principles, an edit form in the project is transformed in the following manner:
+
+![Edit Form Transofrmation](Transformation.png)
 
 For more information, refer to my YouTube video: [Secrets of Edit Forms: Best Practices, Mistakes and AI](https://www.youtube.com/watch?v=4e74iloPnyk)
 
