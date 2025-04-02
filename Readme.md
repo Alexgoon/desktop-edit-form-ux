@@ -8,7 +8,7 @@ This example demonstrates five main UX principles of edit forms:
 4. Focus (user attention)  
 5. Assistance  
 
-For more information, refer to my YouTube video: [link]  
+For more information, refer to my YouTube video: [Secrets of Edit Forms: Best Practices, Mistakes and AI](https://www.youtube.com/watch?v=4e74iloPnyk)
 
 > [!Note]  
 > This example uses DevExpress WPF controls. To run it, you need to register a [DevExpress NuGet feed](https://nuget.devexpress.com/). If you want to run only the part with standard WPF controls, comment out the DevExpress components in XAML and remove the NuGet package references. The AI Smart Past feature is currently available in the EAP release.
