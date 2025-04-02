@@ -11,5 +11,5 @@ This example demonstrates five main UX principles of edit forms:
 For more information, refer to my YouTube video: [link]  
 
 > [!Note]  
-> This example uses DevExpress WPF controls. To run it, you need to register a [DevExpress NuGet feed](https://nuget.devexpress.com/). If you want to run only the part with standard WPF controls, comment out the DevExpress components in XAML and remove the NuGet package references.
+> This example uses DevExpress WPF controls. To run it, you need to register a [DevExpress NuGet feed](https://nuget.devexpress.com/). If you want to run only the part with standard WPF controls, comment out the DevExpress components in XAML and remove the NuGet package references. The AI Smart Past feature is currently available in the EAP release.
 
